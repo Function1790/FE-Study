@@ -1,14 +1,21 @@
 import './App.css';
-import Local_Stro from './component/Local_Stro';
+import Base_Templete from './memo/Base_Templete';
 
 function App() {
   return (
-    <div>
+    <div className='wrapper'>
+
       <div class="one-line">
-        <div id="ONAIR"/>
+        <div id="ONAIR" />
         <div id="onair-text">ONLINE</div>
-        <Local_Stro/>
       </div>
+
+      <div class="toCenter">
+        <div class="memo-index">
+          <Base_Templete />
+        </div>
+      </div>
+
     </div>
   );
 }
