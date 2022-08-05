@@ -1,5 +1,5 @@
 import './App.css';
-import Hello from './component/Hello';
+import Local_Stro from './component/Local_Stro';
 
 function App() {
   return (
@@ -7,8 +7,8 @@ function App() {
       <div class="one-line">
         <div id="ONAIR"/>
         <div id="onair-text">ONLINE</div>
+        <Local_Stro/>
       </div>
-      <Hello/>
     </div>
   );
 }
